@@ -1,0 +1,68 @@
+  .swiper {
+    width: 100%;
+    height: 40%;
+    margin-top: 30px;
+    box-shadow: 0px 0px 12px 1px #064d7988;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  
+  /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+ /*Estilizando o contêiner do Swiper */
+.swiper-container {
+    width: 100%;
+    max-width: 700px; /* Defina o tamanho máximo do Swiper */
+    margin: 20%;
+  }
+  
+  /* Estilizando os slides */
+  .swiper-slide {
+    background-color: #F3F5F9;
+    border: 1px solid #064D79;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+  }
+  
+  /* Estilizando os pontos de paginação */
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #00c2e044;
+    opacity: 0.7;
+  }
+  
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+    background-color: #00c2e0;
+  }
+  
+  /* Estilizando as setas de navegação */
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #00c2e044;
+    width: 100px;
+  }
+  
+  /* Alterar a cor da seta ativa (hover) */
+  .swiper-button-prev:hover,
+  .swiper-button-next:hover {
+    color: #00C2E0;
+  }
+
